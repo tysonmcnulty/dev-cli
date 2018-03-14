@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$thor_runner = false
+
+require 'thor'
+require_relative 'cli/main.rb'
+
+CLI::Main.start(ARGV)
